@@ -1,4 +1,4 @@
-# Pause Plugin for ImpactJS
+# Pause plugin for ImpactJS
 
 This was originally written by Jesse Freeman. I just cleaned it up a bit.
 
@@ -23,8 +23,8 @@ This was originally written by Jesse Freeman. I just cleaned it up a bit.
             this.togglePause();
           }
         }
-      })
-    })
+      });
+    });
 
 ## How does it work?
 
@@ -34,7 +34,7 @@ You can override this behavior for individual entities by adding the `ignorePaus
 
     SomeEntity = ig.Entity.extend({
         ignorePause: true
-    })
+    });
 
 
 ## A note on timers
